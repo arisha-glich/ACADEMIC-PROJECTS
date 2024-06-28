@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Catherine's Art and Design Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../CSS/contact.css"> <link rel="stylesheet" href="../JS/contact.js">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="navbar-brand"></a>
+                <div class="navbar-nav">
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Art Gallery</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to get in touch? Fill out the form below.</p>
+            
+
+            <form name="contactForm" onsubmit="return validateForm()" method="post">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name"><br>
+              
+              <label for="email">Email:</label><br>
+              <input type="text" id="email" name="email"><br>
+              
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message"></textarea><br>
+              
+              <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Catherine's Art and Design Blog. All rights reserved. Interested in contributing? <a href="contact.html">Contact us</a>.</p>
+        </div>
+    </footer>
+
+    <script src="../JS/date.js"></script>
+</body>
+
+</html>
